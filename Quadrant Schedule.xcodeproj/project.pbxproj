@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75419A8D1B212C0A00E687B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419A8C1B212C0A00E687B7 /* Foundation.framework */; };
+		75419A8F1B212C0A00E687B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419A8E1B212C0A00E687B7 /* CoreGraphics.framework */; };
+		75419A911B212C0A00E687B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419A901B212C0A00E687B7 /* UIKit.framework */; };
+		75419A971B212C0A00E687B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75419A951B212C0A00E687B7 /* InfoPlist.strings */; };
+		75419A991B212C0A00E687B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75419A981B212C0A00E687B7 /* main.m */; };
+		75419A9D1B212C0A00E687B7 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75419A9C1B212C0A00E687B7 /* XYZAppDelegate.m */; };
+		75419A9F1B212C0A00E687B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75419A9E1B212C0A00E687B7 /* Images.xcassets */; };
+		75419AA61B212C0A00E687B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419AA51B212C0A00E687B7 /* XCTest.framework */; };
+		75419AA71B212C0A00E687B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419A8C1B212C0A00E687B7 /* Foundation.framework */; };
+		75419AA81B212C0A00E687B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419A901B212C0A00E687B7 /* UIKit.framework */; };
+		75419AB01B212C0A00E687B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75419AAE1B212C0A00E687B7 /* InfoPlist.strings */; };
+		75419AB21B212C0A00E687B7 /* Quadrant_ScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75419AB11B212C0A00E687B7 /* Quadrant_ScheduleTests.m */; };
+		75419ABC1B212C9700E687B7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75419ABB1B212C9700E687B7 /* libsqlite3.dylib */; };
+		75419ABF1B212D1900E687B7 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75419ABE1B212D1900E687B7 /* DBManager.m */; };
+		75824C9A1B27B6400010C7D1 /* XYZScheduleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75824C991B27B6400010C7D1 /* XYZScheduleMapViewController.m */; };
+		759B266A1B22347900368EEA /* QSdb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 759B26691B22347900368EEA /* QSdb.sql */; };
+		759B266C1B22350900368EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759B266B1B22350900368EEA /* Main.storyboard */; };
+		759B266F1B223BE200368EEA /* XYZEditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B266E1B223BE200368EEA /* XYZEditInfoViewController.m */; };
+		759B27381B224AD100368EEA /* XYZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B27371B224AD100368EEA /* XYZTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75419AA91B212C0A00E687B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75419A811B212C0A00E687B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75419A881B212C0A00E687B7;
+			remoteInfo = "Quadrant Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75419A891B212C0A00E687B7 /* Quadrant Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadrant Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75419A8C1B212C0A00E687B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75419A8E1B212C0A00E687B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75419A901B212C0A00E687B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75419A941B212C0A00E687B7 /* Quadrant Schedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quadrant Schedule-Info.plist"; sourceTree = "<group>"; };
+		75419A961B212C0A00E687B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75419A981B212C0A00E687B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75419A9A1B212C0A00E687B7 /* Quadrant Schedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quadrant Schedule-Prefix.pch"; sourceTree = "<group>"; };
+		75419A9B1B212C0A00E687B7 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		75419A9C1B212C0A00E687B7 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		75419A9E1B212C0A00E687B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75419AA41B212C0A00E687B7 /* Quadrant ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadrant ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75419AA51B212C0A00E687B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75419AAD1B212C0A00E687B7 /* Quadrant ScheduleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quadrant ScheduleTests-Info.plist"; sourceTree = "<group>"; };
+		75419AAF1B212C0A00E687B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75419AB11B212C0A00E687B7 /* Quadrant_ScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quadrant_ScheduleTests.m; sourceTree = "<group>"; };
+		75419ABB1B212C9700E687B7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		75419ABD1B212D1900E687B7 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = ../DBManager.h; sourceTree = "<group>"; };
+		75419ABE1B212D1900E687B7 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = ../DBManager.m; sourceTree = "<group>"; };
+		75824C981B27B6400010C7D1 /* XYZScheduleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZScheduleMapViewController.h; sourceTree = "<group>"; };
+		75824C991B27B6400010C7D1 /* XYZScheduleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZScheduleMapViewController.m; sourceTree = "<group>"; };
+		759B26691B22347900368EEA /* QSdb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = QSdb.sql; path = ../QSdb.sql; sourceTree = "<group>"; };
+		759B266B1B22350900368EEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		759B266D1B223BE200368EEA /* XYZEditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZEditInfoViewController.h; path = ../XYZEditInfoViewController.h; sourceTree = "<group>"; };
+		759B266E1B223BE200368EEA /* XYZEditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZEditInfoViewController.m; path = ../XYZEditInfoViewController.m; sourceTree = "<group>"; };
+		759B27361B224AD100368EEA /* XYZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTableViewController.h; sourceTree = "<group>"; };
+		759B27371B224AD100368EEA /* XYZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75419A861B212C0A00E687B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419ABC1B212C9700E687B7 /* libsqlite3.dylib in Frameworks */,
+				75419A8F1B212C0A00E687B7 /* CoreGraphics.framework in Frameworks */,
+				75419A911B212C0A00E687B7 /* UIKit.framework in Frameworks */,
+				75419A8D1B212C0A00E687B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75419AA11B212C0A00E687B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419AA61B212C0A00E687B7 /* XCTest.framework in Frameworks */,
+				75419AA81B212C0A00E687B7 /* UIKit.framework in Frameworks */,
+				75419AA71B212C0A00E687B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75419A801B212C0A00E687B7 = {
+			isa = PBXGroup;
+			children = (
+				75419A921B212C0A00E687B7 /* Quadrant Schedule */,
+				75419AAB1B212C0A00E687B7 /* Quadrant ScheduleTests */,
+				75419A8B1B212C0A00E687B7 /* Frameworks */,
+				75419A8A1B212C0A00E687B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75419A8A1B212C0A00E687B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75419A891B212C0A00E687B7 /* Quadrant Schedule.app */,
+				75419AA41B212C0A00E687B7 /* Quadrant ScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75419A8B1B212C0A00E687B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75419ABB1B212C9700E687B7 /* libsqlite3.dylib */,
+				75419A8C1B212C0A00E687B7 /* Foundation.framework */,
+				75419A8E1B212C0A00E687B7 /* CoreGraphics.framework */,
+				75419A901B212C0A00E687B7 /* UIKit.framework */,
+				75419AA51B212C0A00E687B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75419A921B212C0A00E687B7 /* Quadrant Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				759B26691B22347900368EEA /* QSdb.sql */,
+				75419ABD1B212D1900E687B7 /* DBManager.h */,
+				75419ABE1B212D1900E687B7 /* DBManager.m */,
+				759B266B1B22350900368EEA /* Main.storyboard */,
+				75824C981B27B6400010C7D1 /* XYZScheduleMapViewController.h */,
+				75824C991B27B6400010C7D1 /* XYZScheduleMapViewController.m */,
+				759B266D1B223BE200368EEA /* XYZEditInfoViewController.h */,
+				759B266E1B223BE200368EEA /* XYZEditInfoViewController.m */,
+				759B27361B224AD100368EEA /* XYZTableViewController.h */,
+				759B27371B224AD100368EEA /* XYZTableViewController.m */,
+				75419A9B1B212C0A00E687B7 /* XYZAppDelegate.h */,
+				75419A9C1B212C0A00E687B7 /* XYZAppDelegate.m */,
+				75419A9E1B212C0A00E687B7 /* Images.xcassets */,
+				75419A931B212C0A00E687B7 /* Supporting Files */,
+			);
+			path = "Quadrant Schedule";
+			sourceTree = "<group>";
+		};
+		75419A931B212C0A00E687B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75419A941B212C0A00E687B7 /* Quadrant Schedule-Info.plist */,
+				75419A951B212C0A00E687B7 /* InfoPlist.strings */,
+				75419A981B212C0A00E687B7 /* main.m */,
+				75419A9A1B212C0A00E687B7 /* Quadrant Schedule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75419AAB1B212C0A00E687B7 /* Quadrant ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				75419AB11B212C0A00E687B7 /* Quadrant_ScheduleTests.m */,
+				75419AAC1B212C0A00E687B7 /* Supporting Files */,
+			);
+			path = "Quadrant ScheduleTests";
+			sourceTree = "<group>";
+		};
+		75419AAC1B212C0A00E687B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75419AAD1B212C0A00E687B7 /* Quadrant ScheduleTests-Info.plist */,
+				75419AAE1B212C0A00E687B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75419A881B212C0A00E687B7 /* Quadrant Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75419AB51B212C0A00E687B7 /* Build configuration list for PBXNativeTarget "Quadrant Schedule" */;
+			buildPhases = (
+				75419A851B212C0A00E687B7 /* Sources */,
+				75419A861B212C0A00E687B7 /* Frameworks */,
+				75419A871B212C0A00E687B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quadrant Schedule";
+			productName = "Quadrant Schedule";
+			productReference = 75419A891B212C0A00E687B7 /* Quadrant Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75419AA31B212C0A00E687B7 /* Quadrant ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75419AB81B212C0A00E687B7 /* Build configuration list for PBXNativeTarget "Quadrant ScheduleTests" */;
+			buildPhases = (
+				75419AA01B212C0A00E687B7 /* Sources */,
+				75419AA11B212C0A00E687B7 /* Frameworks */,
+				75419AA21B212C0A00E687B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75419AAA1B212C0A00E687B7 /* PBXTargetDependency */,
+			);
+			name = "Quadrant ScheduleTests";
+			productName = "Quadrant ScheduleTests";
+			productReference = 75419AA41B212C0A00E687B7 /* Quadrant ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75419A811B212C0A00E687B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wei;
+				TargetAttributes = {
+					75419AA31B212C0A00E687B7 = {
+						TestTargetID = 75419A881B212C0A00E687B7;
+					};
+				};
+			};
+			buildConfigurationList = 75419A841B212C0A00E687B7 /* Build configuration list for PBXProject "Quadrant Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75419A801B212C0A00E687B7;
+			productRefGroup = 75419A8A1B212C0A00E687B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75419A881B212C0A00E687B7 /* Quadrant Schedule */,
+				75419AA31B212C0A00E687B7 /* Quadrant ScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75419A871B212C0A00E687B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419A971B212C0A00E687B7 /* InfoPlist.strings in Resources */,
+				759B266A1B22347900368EEA /* QSdb.sql in Resources */,
+				75419A9F1B212C0A00E687B7 /* Images.xcassets in Resources */,
+				759B266C1B22350900368EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75419AA21B212C0A00E687B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419AB01B212C0A00E687B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75419A851B212C0A00E687B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419ABF1B212D1900E687B7 /* DBManager.m in Sources */,
+				75419A9D1B212C0A00E687B7 /* XYZAppDelegate.m in Sources */,
+				75824C9A1B27B6400010C7D1 /* XYZScheduleMapViewController.m in Sources */,
+				759B27381B224AD100368EEA /* XYZTableViewController.m in Sources */,
+				759B266F1B223BE200368EEA /* XYZEditInfoViewController.m in Sources */,
+				75419A991B212C0A00E687B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75419AA01B212C0A00E687B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75419AB21B212C0A00E687B7 /* Quadrant_ScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75419AAA1B212C0A00E687B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75419A881B212C0A00E687B7 /* Quadrant Schedule */;
+			targetProxy = 75419AA91B212C0A00E687B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75419A951B212C0A00E687B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75419A961B212C0A00E687B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75419AAE1B212C0A00E687B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75419AAF1B212C0A00E687B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75419AB31B212C0A00E687B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75419AB41B212C0A00E687B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75419AB61B212C0A00E687B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadrant Schedule/Quadrant Schedule-Prefix.pch";
+				INFOPLIST_FILE = "Quadrant Schedule/Quadrant Schedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75419AB71B212C0A00E687B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadrant Schedule/Quadrant Schedule-Prefix.pch";
+				INFOPLIST_FILE = "Quadrant Schedule/Quadrant Schedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75419AB91B212C0A00E687B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quadrant Schedule.app/Quadrant Schedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadrant Schedule/Quadrant Schedule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quadrant ScheduleTests/Quadrant ScheduleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75419ABA1B212C0A00E687B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quadrant Schedule.app/Quadrant Schedule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadrant Schedule/Quadrant Schedule-Prefix.pch";
+				INFOPLIST_FILE = "Quadrant ScheduleTests/Quadrant ScheduleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75419A841B212C0A00E687B7 /* Build configuration list for PBXProject "Quadrant Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75419AB31B212C0A00E687B7 /* Debug */,
+				75419AB41B212C0A00E687B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75419AB51B212C0A00E687B7 /* Build configuration list for PBXNativeTarget "Quadrant Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75419AB61B212C0A00E687B7 /* Debug */,
+				75419AB71B212C0A00E687B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75419AB81B212C0A00E687B7 /* Build configuration list for PBXNativeTarget "Quadrant ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75419AB91B212C0A00E687B7 /* Debug */,
+				75419ABA1B212C0A00E687B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75419A811B212C0A00E687B7 /* Project object */;
+}
